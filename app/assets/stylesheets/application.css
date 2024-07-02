@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+/* app/assets/stylesheets/application.css */
+.task-title {
+  text-decoration: none;
+  color: inherit;
+}
+
+.task-title:hover {
+  text-decoration: underline;
+}
+
+.task-badge {
+  cursor: pointer;
+}
